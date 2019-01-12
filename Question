@@ -86,7 +86,7 @@ class LinkedList{
           
       }
       
-//5.display() - Displays all the elements in the linked list. Format should be followed as “1 -> 2 -> 3 -> 4 -> NULL” for a linked list hol
+//3.display() - Displays all the elements in the linked list. Format should be followed as “1 -> 2 -> 3 -> 4 -> NULL” for a linked list hol
  //Display
       void display(){
         Node * current = head;
@@ -99,12 +99,12 @@ class LinkedList{
 
 //main function
 int main(){
-  LinkedList l1;
-  l1.insert(1);
-  l1.insert(2);
-  l1.insert(3);
-  l1.display();
-  l1.delet();
-  l1.display();
+  LinkedList l0;
+  l0.insert(1);
+  l0.insert(2);
+  l0.insert(3);
+  l0.display();
+  l0.delete();
+  l0.display();
      return 0;
 }
